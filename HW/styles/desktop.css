@@ -1,0 +1,16 @@
+.screen {
+  height: 100vh;
+  display: flex;
+}
+.screen p {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  margin: auto;
+  font-size: 100px;
+  display: none;
+  color: black;
+}
+.screen .desktop {
+  display: block;
+}
