@@ -1,8 +1,6 @@
 @media (max-width: 767px){
   body {
     background-image: url(../img/mobile.jpg);
-    background-position: center;
-    background-size: cover;
   }
   .screen p {
     margin: auto;

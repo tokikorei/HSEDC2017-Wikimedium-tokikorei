@@ -106,6 +106,41 @@ article img {
   margin: 80px 0 80px -160px;
 }
 
+article ul {
+  list-style: disc;
+  margin-top: 29px;
+  margin-bottom: 29px;
+  margin-left: 25px;
+}
+
+article li {
+  margin: 17px 0 17px 3px;
+}
+
+article ol {
+  list-style: decimal;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 29px;
+}
+
+blockquote {
+  position: relative;
+  margin-top: 29px;
+  font-style: italic;
+}
+
+blockquote::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 3px;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+}
+
 img + h2 {
   margin-top: -1px;
 }
@@ -156,40 +191,5 @@ p, blockquote, article ul {
 }
 
 p + p, blockquote + p {
-  margin-top: 29px;
-}
-
-blockquote {
-  position: relative;
-  margin-top: 29px;
-  font-style: italic;
-}
-
-blockquote::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: -20px;
-  width: 3px;
-  height: 100%;
-  background-color: rgba(0,0,0,.8);
-}
-
-article ul {
-  list-style: disc;
-  margin-top: 29px;
-  margin-bottom: 29px;
-  margin-left: 25px;
-}
-
-article li {
-  margin: 17px 0 17px 3px;
-}
-
-article ol {
-  list-style: decimal;
-  font-size: 22px;
-  line-height: 26px;
   margin-top: 29px;
 }
