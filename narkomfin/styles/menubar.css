@@ -3,24 +3,25 @@
   top: 0;
   left: 0;
   z-index: 1;
-  background: #fff;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
 }
 
 .menubar div {
   display: flex;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   height: 50px;
   padding: 20px;
-  width: 1440px
+  width: 1440px;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
 }
 
 .logo {
   display: block;
   width: 180px;
   height: 16px;
-  background-image: url(../images/wikimedium_logo.svg);
+  background-image: url(../img/wikimedium_logo.svg);
 }
 
 .about {
