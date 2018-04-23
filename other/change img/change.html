@@ -7,20 +7,27 @@
 
   <style>
     body {
-    background-color: black;
+    background-image: url(Hanamura_003.jpg);
     height: 100vh;
-  }
-    body.isDay {
-    background-color: lightblue;
-  }
-    .circle {
-      width: 200px;
-      height: 200px;
-      background-color: white;
+    transition: background .8s ease;
+    }
+
+    body.change {
+    background-image: url(temple.png);
+    }
+
+    .circle{
+      width: 80px;
+      height: 80px;
       border-radius: 50%;
+      background-color: white;
+      position: fixed;
+      top: 87vh;
+      left: calc(50vw - 40px);
     }
   </style>
 </head>
+
 <body>
   <div class="circle"></div>
 
@@ -28,13 +35,12 @@
   <script type="" src="jquery-3.3.1.js"></script>
 
   <script>
-    $(document().ready(function(){
+    $(document).ready(function(){
 
       $('.circle').click(function(){
-        $('body').addClass('isDay');
+        $('body').toggleClass('change');
       });
     });
-
   </script>
 
 </body>

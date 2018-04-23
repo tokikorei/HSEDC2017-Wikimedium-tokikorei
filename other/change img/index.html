@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+    <body>
+      <img SRC="temple.png" onclick=imgchange('temple.png','Hanamura_003.jpg','dragons.png')>
+    </body>
+
+    <script language="javascript">
+      var i=0;
+      // var image=document.getElementById("image");
+      var imgs=Array('temple.png','Hanamura_003.jpg','dragons.png');
+      var j=imgs.length;
+      function imgsrc(){
+          if (i!=(j-1))
+              {i++;}
+      image.src=imgs[i];
+      }
+    </script>
+
+    <!-- <script>
+      var x=false
+      function imgchange(obj,img0,img1,img2) {
+      if  (x){
+      obj.src=img0
+      }
+      else {
+      obj.src=img1
+       }
+      x=!x
+      }
+    </script> -->
+
+
+</head>
+
+</html>
