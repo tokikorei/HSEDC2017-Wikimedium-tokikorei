@@ -1,0 +1,41 @@
+.container {
+  width: calc(100% - 200px);
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card {
+  width: 500px;
+  padding: 8px;
+}
+
+.card-img {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border: 12px solid;
+}
+
+.image-1 {
+  background-image: url(../img/29385913.jpg);
+  border-color: #ff8514;
+}
+
+.image-2 {
+  background-image: url(../img/цветение-сакуры-фото-5.jpg);
+  border-color: #ffafd4;
+}
+
+.image-3 {
+  background-image: url(../img/2_688.jpg);
+  border-color: #20bdd8;
+}
+
+.card p {
+  text-align: center;
+  font-family: Arial;
+  padding: 15px;
+}

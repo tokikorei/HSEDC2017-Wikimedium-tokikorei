@@ -1,0 +1,32 @@
+.menubar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.menubar div {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+  width: 1440px;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+}
+
+.logo {
+  display: block;
+  width: 180px;
+  height: 16px;
+  background-image: url(../img/wikimedium_logo.svg);
+}
+
+.about {
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0,0,0,.2);
+  text-decoration: none;
+}

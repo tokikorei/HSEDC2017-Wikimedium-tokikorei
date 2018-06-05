@@ -1,0 +1,17 @@
+@media (max-width: 767px){
+  body {
+    background-image: url(../img/mobile.jpg);
+  }
+  .screen p {
+    margin: auto;
+    font-size: 100px;
+    display: none;
+    color: #9323b2;
+  }
+  .screen .mobile {
+    display: block;
+  }
+  .screen .desktop {
+    display: none;
+  }
+}

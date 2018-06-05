@@ -1,0 +1,11 @@
+@media (max-width: 767px){
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    width: 300px;
+  }
+  .card-img {
+    height: 300px;
+  }
+}

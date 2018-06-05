@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/jquery.mb.YTPlayer.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+      <div id="customElement">
+          <div id="testText">
+              <h1>jQuery.mb.YTPlayer</h1>
+              <h2>An HTML5 Background player <br>for YouTube videos</h2>
+          </div>
+      </div>
+
+      <div id="video" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=XEfDYMngJeE',containment:'#myPlayer-1', showControls:true, autoPlay:true, loop:false, mute:true, startAt:0, opacity:1, addRaster:true, quality:'default', anchor:'bottom, center'}"></div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script>
+      var myPlayer;
+      jQuery(function () {
+          myPlayer = jQuery(".player").YTPlayer(options);
+      });
+  </script>
+</body>
+</html>

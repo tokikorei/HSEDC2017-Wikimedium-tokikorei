@@ -1,0 +1,61 @@
+@media all and (max-width: 1340px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1020px) {
+  article img {
+    width: 100%;
+    margin: 80px 0;
+  }
+
+  .galleryNav div::before, .galleryNav div::after {
+    background: #fff;
+  }
+}
+
+@media all and (max-width: 740px) {
+  article {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .gallery {
+    margin-left: -20px;
+    width: calc(100% + 40px);
+  }
+
+  .galleryRail figure, .galleryRail img {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .postsFeed {
+    margin-top: 60px;
+  }
+
+  .postsFeed a {
+    width: calc(100% - 40px);
+  }
+
+  .postsFeed figure {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .postsFeed h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+
+  .postsFeed p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .mockup {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,36 @@
+body.posts {
+  background-color: #fafafa;
+}
+
+body.posts .menubar {
+  position: fixed;
+  width: 100%;
+  min-width: 760px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+}
+
+.postsFeed {
+  padding: 80px 0 30px;
+}
+
+.postsFeed a {
+  display: block;
+  width: 740px;
+  margin: 10px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .05);
+}
+
+.postsFeed figure {
+  margin-bottom: 31px;
+  width: 700px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,97 @@
+@media (min-width: 320px) and (max-width: 740px) {
+  body.landing .menubar .wrapper .mainsection {
+    overflow: hidden;
+    max-width: 740px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .menubar {
+    height: 40px;
+  }
+
+  .menubar div {
+    max-width: 740px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    display: block;
+    width: 100px;
+    height: 9px;
+    background-size: contain;
+  }
+
+  .about {
+    font-size: 10px;
+    line-height: 50px;
+    color: rgba(0,0,0,.2);
+    text-decoration: none;
+  }
+
+  .left {
+    position: relative;
+    width: 320px;
+    left: 30px;
+    top: 48px;
+  }
+
+  .right {
+    position: relative;
+    width: 320px;
+    height: 47px;
+    right: -70px;
+    top: 48px;
+  }
+
+  .center {
+    top: 48px;
+    left: 30px;
+  }
+
+  .mainsection h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .mainsection p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .mainsection .left figure {
+    position: relative;
+    width: 210px;
+    height: 20px;
+    margin-top: 50px;
+  }
+
+  .mainsection .right figure {
+    position: relative;
+    right: -40px;
+    width: 210px;
+    height: 20px;
+    margin-top: 50px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 320px;
+    height: 150px;
+  }
+
+  #mockup2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 320px;
+    height: 460px;
+    background-size: contain;
+  }
+}

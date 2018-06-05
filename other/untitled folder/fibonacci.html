@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<script type="text/javascript">
+var fib = [1, 2],
+    i = 2,
+    last = 3,
+    sum = 2;
+
+while (last <= 4e6) {
+    if (last % 2 === 0) {
+        sum += last;
+    }
+    last = fib[i-1] + fib[i-2];
+    fib.push(last);
+    i++;
+
+}
+console.log(fib);
+console.log(sum);
+
+
+</script>
+
+
+</body>
+</html>

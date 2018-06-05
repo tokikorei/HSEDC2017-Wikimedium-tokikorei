@@ -1,0 +1,17 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-image: url(../img/tablet.jpg);
+  }
+  .screen p {
+    margin: auto;
+    font-size: 100px;
+    display: none;
+    color: #ffd800;
+  }
+  .screen .desktop {
+    display: none;
+  }
+  .screen .tablet {
+    display: block;
+  }
+}

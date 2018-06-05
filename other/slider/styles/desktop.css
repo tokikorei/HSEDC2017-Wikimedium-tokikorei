@@ -1,0 +1,28 @@
+.screen {
+  height: 100vh;
+  display: flex;
+}
+
+.slider {
+  height: 300px;
+  width: 500px;
+  margin: auto;
+}
+
+.slider div {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.slider-item-1 {
+  background-image: url(../img/temple.png);
+}
+
+.slider-item-2 {
+  background-image: url(../img/Hanamura_003.jpg);:
+}
+
+.slider-item-3 {
+  background-image: url(../img/dragons.png);:
+}

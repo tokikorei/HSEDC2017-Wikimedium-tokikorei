@@ -1,0 +1,17 @@
+@media (min-width: 1440px) {
+  body {
+    background-image: url(../img/desktop-xl.png);
+  }
+  .screen p {
+    margin: auto;
+    font-size: 100px;
+    display: none;
+    color: #26e2e2;
+  }
+  .screen .desktop-xl {
+    display: block;
+  }
+  .screen .desktop {
+    display: none;
+  }
+}

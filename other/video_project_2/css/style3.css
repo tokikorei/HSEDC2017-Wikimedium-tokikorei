@@ -1,0 +1,20 @@
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  position: absolute;
+  top: 65%;
+  right: calc(50% - 520px);
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+.info h1 {
+  font-size: 140px;
+  font-weight: 700;
+  margin-top: 0;
+}

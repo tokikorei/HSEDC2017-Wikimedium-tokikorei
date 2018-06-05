@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js basics</title>
+
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="header-nav">
+			<a href="" class="header-navItem">Home</a>
+			<a href="" class="header-navItem">About</a>
+			<a href="" class="header-navItem">Contacts</a>
+		</nav>
+
+		<div class="header-mobileButton"></div>
+
+		<div class="header-mobileMenu">
+			<nav class="header-mobileNav">
+				<a href="" class="header-navItem">Home</a>
+				<a href="" class="header-navItem">About</a>
+				<a href="" class="header-navItem">Contacts</a>
+			</nav>
+			<span class="header-cross"></span>
+		</div>
+	</header>
+
+	<div class="switcher">
+    <div class="switcher-column isActive" data-id="popup">
+      <span>popup</span>
+    </div>
+    <div class="switcher-column" data-id="cards">
+      <span>cards</span>
+    </div>
+  </div>
+
+	<section class="content isPopup isActive" data-id="popup"></section>
+
+	<section class="content isCards" data-id="cards"></section>
+
+
+
+	<script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
