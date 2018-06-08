@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+    background-image: url(Hanamura_003.jpg);
+    height: 100vh;
+    transition: background .8s ease;
+    }
+
+    body.change {
+    background-image: url(temple.png);
+    }
+
+    .circle{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background-color: white;
+      position: fixed;
+      top: 87vh;
+      left: calc(50vw - 40px);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="circle"></div>
+
+
+  <script type="" src="jquery-3.3.1.js"></script>
+
+  <script>
+    $(document).ready(function(){
+
+      $('.circle').click(function(){
+        $('body').toggleClass('change');
+      });
+    });
+  </script>
+
+</body>
+</html>
