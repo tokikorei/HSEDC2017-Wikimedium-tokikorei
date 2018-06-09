@@ -10,7 +10,7 @@ $(function() {
   }
 
   function canMovePrev() {
-    return state.currentImage != - 1;
+    return state.currentImage != -1;
   }
 
   function railTransition() {
@@ -58,7 +58,7 @@ $(function() {
     railTransition();
   });
 
-  $('.gallery .galleryNavItem').on('click', function(e) {
+  $('.galleryNav div').on('click', function(e) {
     console.log(state);
 
     if ($(this).hasClass('disabled')) {
